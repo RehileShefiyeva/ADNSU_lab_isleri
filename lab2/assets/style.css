@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#633194;
+    background: -webkit-linear-gradient(to right, #EE257D,#633194);
+    background: linear-gradient(to right,#EE257D, #633194);
+    font-family:'Roboto', sans-serif;
+}
+
+.buttons {
+    margin-top: 30px;
+    flex-wrap: nowrap;
+}
+
+.btn {
+    background-color:#FFC100;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.main-section {
+    margin-top: 50px;
+    flex-wrap: nowrap;
+}
+
+.cards {
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    width: 70em;
+
+}
+
+.left-side {
+    background-color: #fff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.left-side h3,
+.left-side p {
+    margin-left: 20px;
+    background-color: #FFC100;
+    color: black;
+    font-weight: bold;
+    width: 35%;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.left-side p {
+    width: 20%;
+}
+
+.right-side {
+    margin-left: 1.5em;
+}
+
+.card:not(:first-child) {
+    margin-left: 1em;
+}
+
+
+.sidebar {
+    background-color:#FFC100;
+    padding: 4em;
+
+}
+
+.sidebar:not(:first-child) {
+    margin-top: 1em;
+}
+
+.sidebar p, .sidebar span {
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar p {
+    font-size: 2.8em;
+    margin-bottom: 0;
+}
+
+.sidebar span {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.card-img {
+    width: 50%;
+    object-fit: contain;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+
+.card-subtitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+    margin-top: 1.2em;
+}
+
+.btn {
+    background-color:#FFC100;
+    color: black;
+}
+
+.feature {
+    background-color: #fff;
+    display: flex;
+    width: 73em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content h5, .content p {
+    font-weight: 900;
+    color: black;
+}
+
+.content {
+    padding: 3em 0;
+    margin-right: 9em;
+}
+
+.feature-img {
+    object-fit: contain;
+}
+
+.content h5 {
+    margin-bottom: 1em;
+}
+.fa-arrow-right{
+    margin-left: 3px;
+}
+
+
+
+.images {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    width: 75em;
+}
+
+.images {
+
+    justify-content: flex-start;
+}
+
+.images img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.images .row .col-3:not(:first-child) {
+    margin-left: 2em;
+}
+
+#img-line {
+    margin-top: 3em;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-size: 1.5rem;
+    
+}
+
+#img-line:before, #img-line:after {
+    color: white;
+    content: '';
+    flex: 1;
+    border-bottom: 0.4em solid #FFC100;
+    margin: auto 0.25em;
+    box-shadow: 0 -1px;
+}
+
+
